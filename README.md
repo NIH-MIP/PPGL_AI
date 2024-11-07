@@ -1,12 +1,12 @@
 # PPGL_AI
 
-##This repository is created to release the model weights for the following paper: "An Automated Pheochromocytoma and Paraganglioma lesion segmentation AI-model at whole-body 68Ga- DOTATATE PET/CT".
+## This repository is created to release the model weights for the following paper: "An Automated Pheochromocytoma and Paraganglioma lesion segmentation AI-model at whole-body 68Ga- DOTATATE PET/CT".
 ## Please cite if you are using the model: 
 Haque, F., Carrasquillo, J.A., Turkbey, E.B. et al. [An automated pheochromocytoma and paraganglioma lesion segmentation AI-model at whole-body 68Ga- DOTATATE PET/CT](https://ejnmmires.springeropen.com/articles/10.1186/s13550-024-01168-5). EJNMMI Res 14, 103 (2024). [https://doi.org/10.1186/s13550-024-01168-5]
 
 ### We have used 3D full resolution [nnUNet framework](https://www.nature.com/articles/s41592-020-01008-z). Follow the instrustion below to run inference on new dataset using our model.
 
-###Insturctions: 
+### Insturctions: 
 1. First, create a conda environment. You can name it to your liking; for example, ***'petct-env'***.
 2. Install nnUNet. Installation process can be found in the following link: [documentation/installation_instructions.md](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md)
 3. Create a new folder (anyname). Create the following three sub-folder in this directory: ***'nnUNet_raw'***, ***'nnUNet_preprocessed'***,***'nnUNet_results'*** inside the folder. The names should be exactly the same.
