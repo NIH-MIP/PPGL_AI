@@ -1,4 +1,4 @@
-# PPGL_AI
+# PPGL_AI 
 
 ## This repository is created to release the model weights for the following paper: "An Automated Pheochromocytoma and Paraganglioma lesion segmentation AI-model at whole-body 68Ga- DOTATATE PET/CT".
 ## Please cite if you are using the model: 
